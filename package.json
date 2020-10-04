@@ -30,6 +30,7 @@
     "react-table": "^6.10.3"
   },
   "scripts": {
+    "serve": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
