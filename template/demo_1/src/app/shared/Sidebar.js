@@ -32,6 +32,7 @@ class Sidebar extends Component {
     });
 
     const dropdownPaths = [
+      {path:'/apple', state: 'appleMenuOpen'},
       {path:'/basic-ui', state: 'basicUiMenuOpen'},
       {path:'/form-elements', state: 'formElementsMenuOpen'},
       {path:'/tables', state: 'tablesMenuOpen'},
@@ -45,8 +46,8 @@ class Sidebar extends Component {
         this.setState({[obj.state] : true})
       }
     }));
- 
-  } 
+
+  }
   render () {
     return (
       <nav className="sidebar sidebar-offcanvas" id="sidebar">
@@ -88,7 +89,7 @@ class Sidebar extends Component {
                     Manage Accounts
                   </Dropdown.Item>
                   <Dropdown.Item className="dropdown-item preview-item d-flex align-items-center text-small" onClick={evt =>evt.preventDefault()}>
-                  Change Password 
+                  Change Password
                   </Dropdown.Item>
                   <Dropdown.Item className="dropdown-item preview-item d-flex align-items-center text-small" onClick={evt =>evt.preventDefault()}>
                     Check Inbox
@@ -100,6 +101,12 @@ class Sidebar extends Component {
               </Dropdown>
               <button className="btn btn-success btn-block">New Project <i className="mdi mdi-plus"></i></button>
             </div>
+          </li>
+          <li className={ this.isPathActive('/apple') ? 'nav-item active' : 'nav-item' }>
+            <Link className="nav-link" to="/apple">
+              <i className="mdi mdi-television menu-icon"></i>
+              <span className="menu-title">Apple</span>
+            </Link>
           </li>
           <li className={ this.isPathActive('/dashboard') ? 'nav-item active' : 'nav-item' }>
             <Link className="nav-link" to="/dashboard">
@@ -181,7 +188,7 @@ class Sidebar extends Component {
     // add className 'hover-open' to sidebar navitem while hover in sidebar-icon-only menu
     const body = document.querySelector('body');
     document.querySelectorAll('.sidebar .nav-item').forEach((el) => {
-      
+
       el.addEventListener('mouseover', function() {
         if(body.classList.contains('sidebar-icon-only')) {
           el.classList.add('hover-open');
