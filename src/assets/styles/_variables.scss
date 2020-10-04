@@ -16,7 +16,7 @@ $white:             #ffffff;
 $white-smoke:       #f2f7f8;
 $violet:            #41478a;
 $darkslategray :    #2e383e;
-$dodger-blue :      #3498db; 
+$dodger-blue :      #3498db;
 
 
 $colors: (
@@ -70,7 +70,7 @@ $content-bg: #f3f4fa;
 $footer-bg: $content-bg;
 $footer-color: color(dark);
 $border-color: #dee2e6;
-$circle-border:$white; 
+$circle-border:$white;
 
 ////////// COLOR VARIABLES //////////
 
@@ -183,7 +183,7 @@ $navbar-bg: linear-gradient(120deg, #2f78e9, #128bfc, #18bef1);
 $navbar-menu-color: #fff;
 $navbar-font-size: 12px;
 $navbar-icon-font-size: 1.25rem;
-$nvabar-brand-bg: #000000; 
+$nvabar-brand-bg: #000000;
 $nvabar-toggler-color: #8e94a9;
 $navbar-search-bg: #eef0fa;
 $nvabar-search-icon-color: #8e94a9;
@@ -333,6 +333,7 @@ $breadcrumb-item-bg:                #dbe3e6;
 ////////// MODALS VARIABLES //////////
 
 $modal-inner-padding:               15px;
+$modal-footer-margin-between:       0px; // I DON'T KNOW WHY IT DIDN'T EXIST.
 $modal-dialog-margin:               10px;
 $modal-dialog-margin-y-sm-up:       30px;
 $modal-title-line-height:           $line-height-base;
@@ -402,7 +403,7 @@ $boxed-layout-bg: #c6c8ca;
 
 ///////// TICKETS-TAB ///////
 $tab-head-bg: darken(#f2edf3, 2%);
-$accent-color: $white; 
+$accent-color: $white;
 ///////// TICKETS-TAB ///////
 
 ///////// LANDING PAGE ///////
