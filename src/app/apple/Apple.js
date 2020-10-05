@@ -252,14 +252,14 @@ amountDueBarOptions = {
                     <i className="mdi mdi-cube text-danger icon-lg"></i>
                   </div>
                   <div className="float-right">
-                    <p className="mb-0 text-right text-dark">Total Revenue</p>
+                    <p className="mb-0 text-right text-dark">이번 달 총 매출</p>
                     <div className="fluid-container">
-                      <h3 className="font-weight-medium text-right mb-0 text-dark">$65,650</h3>
+                      <h3 className="font-weight-medium text-right mb-0 text-dark">10,000,000 <small>원</small></h3>
                     </div>
                   </div>
                 </div>
                 <p className="text-muted mt-3 mb-0">
-                  <i className="mdi mdi-alert-octagon mr-1" aria-hidden="true"></i> 65% lower growth </p>
+                  <i className="mdi mdi-alert-octagon mr-1" aria-hidden="true"></i>지난달보다 5,000,000 원 증가 </p>
               </div>
             </div>
           </div>
@@ -271,14 +271,14 @@ amountDueBarOptions = {
                     <i className="mdi mdi-receipt text-warning icon-lg"></i>
                   </div>
                   <div className="float-right">
-                    <p className="mb-0 text-right text-dark">Orders</p>
+                    <p className="mb-0 text-right text-dark">주문</p>
                     <div className="fluid-container">
                       <h3 className="font-weight-medium text-right mb-0 text-dark">3455</h3>
                     </div>
                   </div>
                 </div>
                 <p className="text-muted mt-3 mb-0">
-                  <i className="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Product-wise sales </p>
+                  <i className="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i>지난달보다 124 증가</p>
               </div>
             </div>
           </div>
@@ -290,14 +290,14 @@ amountDueBarOptions = {
                     <i className="mdi mdi-poll-box text-success icon-lg"></i>
                   </div>
                   <div className="float-right">
-                    <p className="mb-0 text-right text-dark">Sales</p>
+                    <p className="mb-0 text-right text-dark">판매</p>
                     <div className="fluid-container">
                       <h3 className="font-weight-medium text-right mb-0 text-dark">5693</h3>
                     </div>
                   </div>
                 </div>
                 <p className="text-muted mt-3 mb-0">
-                  <i className="mdi mdi-calendar mr-1" aria-hidden="true"></i> Weekly Sales </p>
+                  <i className="mdi mdi-calendar mr-1" aria-hidden="true"></i>지난달보다 124 증가</p>
               </div>
             </div>
           </div>
@@ -309,14 +309,14 @@ amountDueBarOptions = {
                     <i className="mdi mdi-account-box-multiple text-info icon-lg"></i>
                   </div>
                   <div className="float-right">
-                    <p className="mb-0 text-right text-dark">Employees</p>
+                    <p className="mb-0 text-right text-dark">재고</p>
                     <div className="fluid-container">
                       <h3 className="font-weight-medium text-right mb-0 text-dark">246</h3>
                     </div>
                   </div>
                 </div>
                 <p className="text-muted mt-3 mb-0">
-                  <i className="mdi mdi-reload mr-1" aria-hidden="true"></i> Product-wise sales </p>
+                  <i className="mdi mdi-reload mr-1" aria-hidden="true"></i></p>
               </div>
             </div>
           </div>
